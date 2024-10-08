@@ -73,7 +73,7 @@ jobs:
         with:
           aws-region: ${{ vars.AWS_REGION }}
           role-to-assume: arn:aws:iam::638827497917:role/MyFreshWebsite_S3Deployer2
-          role-session-name: GithubActions-MyHugoProject
+          role-session-name: MyFreshWebsite_S3Deployer2
           mask-aws-account-id: true
       - name: Sync to S3
         id: deployment
