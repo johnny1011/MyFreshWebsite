@@ -1,0 +1,29 @@
+baseURL: ""
+languageCode: en-us
+title:
+theme:
+  - PaperMod
+  - hugo-embed-pdf-shortcode
+
+
+
+params:
+  homeInfoParams:
+    Title: "Jonathan Hind"
+    Content: I am a software engineer and AI researcher.
+  socialIcons:
+    - name: twitter
+      url: "https://x.com/import_hind" 
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jonathanhind/"
+    - name: github
+      url: "https://github.com/johnny1011"
+
+menu:
+  main:
+    - name: "Blog"
+      url: "/blog/"
+    - name: "About"
+      url: "/"
+    - name: "CV"
+      url: "/cv"
