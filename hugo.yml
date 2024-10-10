@@ -1,16 +1,31 @@
 baseURL: ""
 languageCode: en-us
-title:
+title: "Jonathan Hind"
 theme:
   - PaperMod
   - hugo-embed-pdf-shortcode
 
 
 
+
 params:
   homeInfoParams:
-    Title: "Jonathan Hind"
-    Content: I am a software engineer and AI researcher.
+    Content: |
+      
+      ## Hi, I am Jonathan Hind 
+      
+      Research Software Engineer specializing in AI
+      Based in London, UK, I focus on full-stack AI development in healthcare.
+
+      ### Experience: 
+      - Working at the [CAMHS Digital Lab](https://www.camhsdlab.co.uk/), King's College London
+      - Co-founded Synthetig, developing synthetic data models
+      - Interned at [Benevolent AI](https://www.benevolent.com/), researching AI applications in clinical trials    
+      
+      I'm passionate about leveraging AI to solve complex problems in healthcare and beyond.
+
+  defaultTheme: light
+
   socialIcons:
     - name: twitter
       url: "https://x.com/import_hind" 
@@ -18,12 +33,16 @@ params:
       url: "https://www.linkedin.com/in/jonathanhind/"
     - name: github
       url: "https://github.com/johnny1011"
+    - name: cv
+      url: "https://jonathanhind.com/cv/"
+
 
 menu:
   main:
     - name: "Blog"
       url: "/blog/"
-    - name: "About"
+    - name: "cv"
+      url: "/cv/"
+    - name: "Home"
       url: "/"
-    - name: "CV"
-      url: "/cv"
+
